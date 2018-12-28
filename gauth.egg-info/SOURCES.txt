@@ -1,0 +1,7 @@
+README.md
+g_creds
+setup.py
+gauth.egg-info/PKG-INFO
+gauth.egg-info/SOURCES.txt
+gauth.egg-info/dependency_links.txt
+gauth.egg-info/top_level.txt

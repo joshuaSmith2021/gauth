@@ -7,7 +7,7 @@ with open('README.md') as f:
 setuptools.setup(
     name='gauth',
     version='0.1',
-    scripts=['gauth'],
+    scripts=['g_creds'],
     author='Joshua Smith',
     author_email='whoopsie@example.com',
     description='A package to assist with Google OAuth',

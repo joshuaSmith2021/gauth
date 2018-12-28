@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gauth
+Version: 0.1
+Summary: A package to assist with Google OAuth
+Home-page: https://github.com/joshuasmith2021/gauth
+Author: Joshua Smith
+Author-email: whoopsie@example.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU GPLv3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
