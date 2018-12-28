@@ -12,10 +12,12 @@ class OAuth:
     """
     Creates an object with multiple methods designed to create and read
     credentials as well as checking if valid credentials exist. It is
-    initialized by passing in the path to the OAuth client secrets file.
+    initialized by passing in the path to the OAuth client secrets file and the
+    path to the file where credentials are stored.
     """
-    def __init__(self, SECRETS_FILE):
+    def __init__(self, SECRETS_FILE, creds_file):
         self._secrets_file = SECRETS_FILE
+        self._creds_file = creds_file
     def create_credentials(self, SCOPES, SERVICE_NAME, VERSION):
         """
         Creates OAuth credentials for a user based for a certain API.
